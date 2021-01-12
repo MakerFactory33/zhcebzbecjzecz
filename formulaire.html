@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remplir votre bon de commande</title>
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+    <!-- favicon -->
+
+
+
+    <!-- cette page et terminer ne rien changer -->
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16 (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16 (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16 (1)/favicon-16x16.png">
+<link rel="manifest" href="/favicon_package_v0.16 (1)/site.webmanifest">
+<link rel="mask-icon" href="/favicon_package_v0.16 (1)/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    
+
+    <!-- fin favicon -->
+</head>
+<body>
+    <!-- debut du code pour le chatbot -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script> <!-- se script a été créé par elfsight app -->
+    <div class="elfsight-app-1fd2318c-9b55-48c8-a3df-6e0f8eaffc8b"></div>
+   <!-- fin du code -->
+   <div class="tm-main-content" id="top">
+    <div class="tm-top-bar-bg"></div>
+    <div class="tm-top-bar" id="tm-top-bar">
+        <!-- Top Navbar -->
+        <div class="container">
+            <div class="row">
+                
+                <nav class="navbar navbar-expand-lg narbar-light">
+                    <a class="navbar-brand mr-auto" href="index.html"> <!-- quand le logo et appuyez amenez a la page d'accueil -->
+                        <img src="/img/logo1 copie.png" alt="Site logo" height="100px"> <!-- logo makerfactory -->
+                        MakerFactory
+                    </a><!-- se site a été entièrement refait par vianney dubourg et  créé par tooplates et bootstrap -->
+
+                    <!-- debut du script du menu en bouton -->
+                    <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- fin du script de menu  -->
+                    
+                    <!-- debut du script du menu -->
+                    <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item"><!-- se site a été entièrement refait par vianney dubourg et  créé par tooplates et bootstrap -->
+                            <a class="nav-link" href="impression.html">Impression</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="modélisation.html">Modélisation</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="index copie.html">Shop</a>
+                          </li>
+                        </ul>
+                    </div>
+                </nav>    
+            </div>
+        </div>    
+    </div>        
+   </div>        
+   
+   <!-- fin du script du menu -->   
+   
+   <img src="/fond bon de commande1.png" alt="fond">
+   
+   <!-- debut du script du formulaire -->
+   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px; margin-top: 10px;">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXugbICYoC8wY_J7Vo0iOWsXPDoph6V9iCxWzG0AiIeKGWhg/viewform?embedded=true" width="640" height="2486" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+   </div> 
+
+   <!-- fin du script du formulaire -->
+
+   <img src="/fond bas page.png" alt="fond de bas de page" style="width: 100%;margin-top: 20px;">
+
+
+   <footer class="tm-bg-dark-blue" ">
+    <div class="container">
+        <div class="row">
+            <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
+            Copyright &copy; <span class="tm-current-year">2020</span> MakerFactory
+            
+            - Design by <a href="https://www.linkedin.com/in/vianney-dubourg-bb72b61b3/">VianneyDubourg</a></p>        
+        </div>
+    </div>                
+</footer>
+
+
+
+   <!-- script a ne pas effacer -->
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->       
+        <script src="js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
+        <script src="js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
+        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->
+        <script>
+
+           
+                // Date Picker
+                const pickerCheckIn = datepicker('#inputCheckIn');
+                const pickerCheckOut = datepicker('#inputCheckOut');
+                
+                // Slick carousel
+                setCarousel();
+                setPageNav();
+
+                $(window).resize(function() {
+                  setCarousel();
+                  setPageNav();
+                });
+
+                // Close navbar after clicked
+                $('.nav-link').click(function(){
+                    $('#mainNav').removeClass('show');
+                });
+
+                // Control video
+                $('.tm-btn-play').click(function() {
+                    togglePlayPause();                                      
+                });
+
+                $('.tm-btn-pause').click(function() {
+                    togglePlayPause();                                      
+                });
+
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());                           
+            
+
+        </script>    
+        
+        <!-- fin du script -->
+    
+</body>
+</html>
